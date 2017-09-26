@@ -1,0 +1,29 @@
+// Border
+.border {
+  &ed {
+    border: 1px solid $primary;
+  }
+  &-top {
+    border-top: 1px solid $primary;
+  }
+  &-right {
+    border-right: 1px solid $primary;
+  }
+  &-bottom {
+    border-bottom: 1px solid $primary;
+  }
+  &-left {
+    border-left: 1px solid $primary;
+  }
+  
+  &-dark {
+    border-color: $primary-dark;
+  }
+  &-light {
+    border-color: $primary-light;
+  }
+  
+  &-thick {
+    border-width: 4px;
+  }
+}

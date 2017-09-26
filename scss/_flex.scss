@@ -1,0 +1,14 @@
+// Flex
+.flex {
+  display: flex; 
+  flex-wrap: wrap;
+  
+  &-center {
+    @extend .flex;
+    justify-content: center;
+  }
+  
+  &-start {
+    @extend .flex;
+  }
+}

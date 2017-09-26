@@ -1,0 +1,20 @@
+// Typography
+.text {
+  &-white {
+    color: $white;
+  }
+  
+  &-large {
+    font-size: 2rem;
+  }
+  &-small {
+    font-size: 0.825rem;
+  }
+  &-tiny {
+    font-size: 0.6rem;
+  }
+}
+
+h1 {
+  @extend .text-large;
+}

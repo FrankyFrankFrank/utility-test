@@ -1,0 +1,50 @@
+@mixin spacing($prop, $side: false) {
+  &-large {
+    #{$prop + if($side, '-' + $side, '')}: $large-space;
+  }
+  &-medium {
+    #{$prop + if($side, '-' + $side, '')}: $base-space;
+  }
+  &-small {
+    #{$prop + if($side, '-' + $side, '')}: $small-space;
+  }
+  &-tiny {
+    #{$prop + if($side, '-' + $side, '')}: $tiny-space; 
+  }
+}
+
+.margin {
+  
+  @include spacing('margin');
+  
+  &-top {
+    @include spacing('margin', 'top'); 
+  }
+  &-right {
+    @include spacing('margin', 'right');
+  }
+  &-bottom {
+    @include spacing('margin', 'bottom');
+  }
+  &-left {
+    @include spacing('margin', 'left');
+  }
+}
+
+.padding {
+  
+  @include spacing('padding');
+  
+  &-top {
+    @include spacing('padding', 'top');
+  }
+  &-right {
+    @include spacing('padding', 'right');
+  }
+  &-bottom {
+    @include spacing('padding', 'bottom');
+  }
+  &-left {
+    @include spacing('padding', 'left');
+  }
+}
