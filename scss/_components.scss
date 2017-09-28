@@ -1,15 +1,5 @@
 // Components
 .card {
-  @extend .padding-large;
-  @extend .border-bottom;
-  @extend .border-thick;
-  @extend .border-dark;
-  @extend .margin-large;
-  @extend .box-shadow;
-  
-  max-width: 200px;
-  
-  &:hover {
-    @extend .border-light
-  }
+  @extend .text-center;
+  @extend .margin-small;
 }

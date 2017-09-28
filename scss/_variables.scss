@@ -1,11 +1,13 @@
 // Spacing
 $base-space: 1.3rem; // I love base styles
+
 $large-space: calc(#{$base-space} * 2);
 $small-space: calc(#{$base-space} * 0.7);
 $tiny-space: calc(#{$base-space} * 0.3);
 
 // Colours
 $white: hsl(0, 0, 100%);
+$grey: hsl(0, 0, 70%);
 $green: hsl(150, 80%, 50%);
 $blue: hsl(220, 80%, 50%);
 $purple: hsl(270, 80%, 50%);

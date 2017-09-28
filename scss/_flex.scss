@@ -1,6 +1,6 @@
 // Flex
 .flex {
-  display: flex; 
+  display: flex;
   flex-wrap: wrap;
   
   &-center {
@@ -10,5 +10,6 @@
   
   &-start {
     @extend .flex;
+    justify-content: flex-start;
   }
 }
